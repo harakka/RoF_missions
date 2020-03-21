@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3924.4648,131.1244,4594.458};
+		pos[]={3906.6853,6.5797472,4498.4473};
 		dir[]={0.018937619,-0.48344439,-0.87530929};
 		up[]={0.010464367,0.87478876,-0.48344561};
 		aside[]={-0.9997322,1.4200923e-006,-0.021644041};
@@ -248,25 +248,6 @@ class CustomAttributes
 		name="TMF_ORBAT_Settings";
 		class Attribute0
 		{
-			property="TMF_ORBATTracker";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"BOOL"
-						};
-					};
-					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="TMF_ORBATTrackerCondition";
 			expression="false";
 			class Value
@@ -281,6 +262,25 @@ class CustomAttributes
 						};
 					};
 					value="true";
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="TMF_ORBATTracker";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
 				};
 			};
 		};
@@ -318,7 +318,7 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[0,[[0,"""","""","""",""Platoon"",0],[[[1,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha"",-3],[]],[[2,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",0],[]],[[3,""Transport"",""x\tmf\addons\orbat\textures\gray_rotarywing.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",1],[]],[[4,""CAS"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",2],[]],[[5,""Armour"",""x\tmf\addons\orbat\textures\gray_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",3],[]]]]]]";
+					value="[[0,[[0,"""","""","""",""Platoon"",0],[[[1,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha"",-3],[]],[[2,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",0],[]],[[3,""Transport"",""x\tmf\addons\orbat\textures\gray_rotarywing.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",1],[]],[[4,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",3],[]],[[5,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",2],[]],[[6,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",-7],[]]]]]]";
 				};
 			};
 		};
@@ -586,7 +586,7 @@ class CustomAttributes
 		};
 		nAttributes=6;
 	};
-	class Category5
+	class Category4
 	{
 		name="TMF_Settings";
 		class Attribute0
@@ -610,7 +610,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category6
+	class Category5
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -817,7 +817,7 @@ class CustomAttributes
 		};
 		nAttributes=9;
 	};
-	class Category7
+	class Category6
 	{
 		name="Scenario";
 		class Attribute0
@@ -6019,7 +6019,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_cross.paa"",""COM"",-5]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM""]";
 								};
 							};
 						};
@@ -7001,7 +7001,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=5;
+				class Attribute5
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
 		class Item7
@@ -10541,7 +10560,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_helo_cargo.paa"",""TH1"","""",24]";
+							value="[""x\tmf\addons\orbat\textures\gray_helo_cargo.paa"",""TH1"",""x\tmf\addons\orbat\textures\modif_o.paa"",24]";
 						};
 					};
 				};
@@ -17363,7 +17382,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_helo_cargo.paa"",""TH2"","""",25]";
+							value="[""x\tmf\addons\orbat\textures\gray_helo_cargo.paa"",""TH2"",""x\tmf\addons\orbat\textures\modif_o.paa"",25]";
 						};
 					};
 				};
@@ -18470,7 +18489,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\gray_armor.paa"",""TNK1"","""",34]";
+							value="[""x\tmf\addons\orbat\textures\blue_armor.paa"",""TNK1"",""x\tmf\addons\orbat\textures\modif_o.paa"",34]";
 						};
 					};
 				};
@@ -18896,7 +18915,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\gray_helo_attack.paa"",""AH1"","""",32]";
+							value="[""x\tmf\addons\orbat\textures\red_helo_attack.paa"",""AH1"",""x\tmf\addons\orbat\textures\modif_o.paa"",32]";
 						};
 					};
 				};
@@ -21269,7 +21288,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG1"","""",7]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_m.paa"",""MMG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",7]";
 						};
 					};
 				};
@@ -21830,7 +21849,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG2"","""",8]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_m.paa"",""MMG2"",""x\tmf\addons\orbat\textures\modif_o.paa"",8]";
 						};
 					};
 				};
@@ -22334,7 +22353,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_h.paa"",""HMG1"","""",9]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_h.paa"",""HMG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",9]";
 						};
 					};
 				};
@@ -22838,7 +22857,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT1"","""",10]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""MAT1"",""x\tmf\addons\orbat\textures\modif_o.paa"",10]";
 						};
 					};
 				};
@@ -23323,7 +23342,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT2"","""",11]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""MAT2"",""x\tmf\addons\orbat\textures\modif_o.paa"",11]";
 						};
 					};
 				};
@@ -23827,7 +23846,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""HAT1"","""",12]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""HAT1"",""x\tmf\addons\orbat\textures\modif_o.paa"",12]";
 						};
 					};
 				};
@@ -24351,7 +24370,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mortar.paa"",""MTR1"","""",16]";
+							value="[""x\tmf\addons\orbat\textures\green_mortar.paa"",""MTR1"",""x\tmf\addons\orbat\textures\modif_o.paa"",16]";
 						};
 					};
 				};
@@ -24738,7 +24757,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_airdef_not_a_nipple.paa"",""MSAM1"","""",13]";
+							value="[""x\tmf\addons\orbat\textures\green_airdef_not_a_nipple.paa"",""MSAM1"",""x\tmf\addons\orbat\textures\modif_o.paa"",13]";
 						};
 					};
 				};
@@ -25125,7 +25144,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_sf.paa"",""ST1"","""",14]";
+							value="[""x\tmf\addons\orbat\textures\green_sf.paa"",""ST1"",""x\tmf\addons\orbat\textures\modif_o.paa"",14]";
 						};
 					};
 				};
@@ -25900,7 +25919,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_engineer.paa"",""ENG1"","""",15]";
+							value="[""x\tmf\addons\orbat\textures\green_engineer.paa"",""ENG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",15]";
 						};
 					};
 				};
@@ -26188,7 +26207,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_fixedwing.paa"",""CAS1"","""",35]";
+							value="[""x\tmf\addons\orbat\textures\red_fixedwing.paa"",""CAS1"",""x\tmf\addons\orbat\textures\modif_o.paa"",35]";
 						};
 					};
 				};
@@ -26751,7 +26770,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={4175.875,5.0014391,4495.5522};
-						angles[]={-0,0.030927233,0};
+						angles[]={0,0.030927233,0};
 					};
 					side="Independent";
 					flags=6;
@@ -45441,7 +45460,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3916.457,8.2304878,4413.5625};
-				angles[]={-0,6.2602692,0};
+				angles[]={0,6.2602692,0};
 			};
 			side="Empty";
 			flags=4;

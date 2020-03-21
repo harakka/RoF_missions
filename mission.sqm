@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4114.5728,223.39812,4688.4697};
-		dir[]={-0.071228437,-0.62377894,-0.7785033};
-		up[]={-0.056828693,0.78101718,-0.62117481};
-		aside[]={-0.99580699,-1.3665267e-006,0.091094099};
+		pos[]={3922.1167,8.9508591,4500.9648};
+		dir[]={-0.37843993,-0.59563041,-0.70869529};
+		up[]={-0.28056863,0.80266494,-0.52542812};
+		aside[]={-0.88207906,-7.9418533e-007,0.47100705};
 	};
 };
 binarizationWanted=0;
@@ -318,7 +318,7 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[0,[[0,"""","""","""",""Platoon"",0],[[[1,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha"",-3],[]],[[2,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",0],[]],[[3,""Transport"",""x\tmf\addons\orbat\textures\gray_rotarywing.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",1],[]],[[4,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",3],[]],[[5,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",2],[]],[[6,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",-7],[]]]]],[1,[[7,"""","""","""",""BLUFOR"",0],[[[11,"""","""","""",""3IFB"",-18],[[[8,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",-17],[]],[[9,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Infantry Alpha Squad"",-16],[]],[[10,""Transport"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",0],[]],[[15,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",-15],[]],[[16,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",1],[]],[[17,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",2],[]]]],[[12,"""","""","""",""NATO"",0],[[[13,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Infantry Alpha Squad"",1],[]],[[14,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",0],[]],[[19,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",2],[]],[[20,""Transport"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",3],[]],[[21,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",4],[]],[[22,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",5],[]]]]]]],[2,[[18,"""","""","""",""Platoon"",0],[]]]]";
+					value="[[0,[[0,"""","""","""",""Platoon"",0],[[[1,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Alpha"",-3],[]],[[2,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",0],[]],[[3,""Transport"",""x\tmf\addons\orbat\textures\gray_rotarywing.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",1],[]],[[4,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",3],[]],[[5,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",2],[]],[[6,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",-7],[]]]]],[1,[[7,"""","""","""",""BLUFOR"",0],[[[11,"""","""","""",""3IFB"",-18],[[[8,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",-17],[]],[[9,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Infantry Alpha Squad"",-16],[]],[[10,""Transport"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",0],[]],[[15,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",-15],[]],[[16,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",1],[]],[[17,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",2],[]]]],[[12,"""","""","""",""NATO"",0],[[[13,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Infantry Alpha Squad"",1],[]],[[14,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",0],[]],[[19,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",2],[]],[[20,""Transport"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",3],[]],[[21,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",4],[]],[[22,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",5],[]]]]]]],[2,[[18,"""","""","""",""Independent"",0],[[[23,""HQ"",""x\tmf\addons\orbat\textures\orange_hq.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""HQ"",0],[]],[[24,""Alpha"",""x\tmf\addons\orbat\textures\yellow_inf.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Infantry Alpha Squad"",1],[]],[[25,""Support"",""x\tmf\addons\orbat\textures\green.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Support Elements"",2],[]],[[26,""Transport"",""x\tmf\addons\orbat\textures\gray.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Transport"",3],[]],[[27,""Armour"",""x\tmf\addons\orbat\textures\blue_armor.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""Armour"",4],[]],[[28,""CAS"",""x\tmf\addons\orbat\textures\red.paa"",""x\tmf\addons\orbat\textures\modif_dot.paa"",""CAS"",5],[]]]]]]";
 				};
 			};
 		};
@@ -1397,7 +1397,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3904.2209,5.0014391,4208.1064};
+						position[]={3904.2209,5.0014391,4208.1069};
 					};
 					side="West";
 					flags=6;
@@ -1429,7 +1429,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="["""",""""]";
+									value="[""x\tmf\addons\orbat\textures\orange_sl_flag.paa"",""CO"",-14]";
 								};
 							};
 						};
@@ -1530,6 +1530,25 @@ class Mission
 						};
 						class Attribute6
 						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute7
+						{
 							property="TMF_assignGear_full";
 							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
 							class Value
@@ -1547,7 +1566,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute7
+						class Attribute8
 						{
 							property="TMF_assignGear_role";
 							expression="false";
@@ -1566,7 +1585,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=8;
+						nAttributes=9;
 					};
 				};
 				class Item1
@@ -2566,7 +2585,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3920.1277,5.0014391,4207.9932};
+						position[]={3920.1279,5.0014391,4207.9927};
 					};
 					side="West";
 					flags=6;
@@ -2597,7 +2616,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_sl_flag.paa"",""ASL"",3]";
+									value="[""x\tmf\addons\orbat\textures\yellow_chevrons.paa"",""ASL"",-5]";
 								};
 							};
 						};
@@ -2679,6 +2698,25 @@ class Mission
 						};
 						class Attribute5
 						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute6
+						{
 							property="TMF_assignGear_full";
 							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
 							class Value
@@ -2696,7 +2734,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute6
+						class Attribute7
 						{
 							property="TMF_assignGear_role";
 							expression="false";
@@ -2715,7 +2753,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=7;
+						nAttributes=8;
 					};
 				};
 				class Item1
@@ -5963,7 +6001,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3903.6743,5.0014391,4496.1191};
+						position[]={3903.6741,5.0014391,4496.1187};
 					};
 					side="East";
 					flags=6;
@@ -5982,25 +6020,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""co"",""ussr_pv"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
 							class Value
@@ -6014,68 +6033,11 @@ class Mission
 											"STRING"
 										};
 									};
-									value="["""",""""]";
+									value="[""x\tmf\addons\orbat\textures\orange_sl_flag.paa"",""CO""]";
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[3]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="co";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -6094,7 +6056,140 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[3]";
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03RUS";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""co"",""ussr_pv"",true]";
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="co";
+								};
+							};
+						};
+						nAttributes=9;
 					};
 				};
 				class Item1
@@ -6133,7 +6228,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM""]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM"",1]";
 								};
 							};
 						};
@@ -7181,7 +7276,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="["""",""""]";
+									value="[""x\tmf\addons\orbat\textures\yellow_chevrons.paa"",""ASL""]";
 								};
 							};
 						};
@@ -7377,7 +7472,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""AM""]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""AM"",1]";
 								};
 							};
 						};
@@ -10750,7 +10845,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4085.998,5.0014391,4500.1045};
+						position[]={4085.998,5.0014391,4500.105};
 					};
 					side="Independent";
 					flags=6;
@@ -10768,25 +10863,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""co"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
 							class Value
@@ -10800,68 +10876,11 @@ class Mission
 											"STRING"
 										};
 									};
-									value="["""",""""]";
+									value="[""x\tmf\addons\orbat\textures\orange_sl_flag.paa"",""CO"",-17]";
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[3]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="co";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -10880,7 +10899,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[3]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""co"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="co";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 				class Item1
@@ -10918,7 +11051,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM""]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM"",1]";
 								};
 							};
 						};
@@ -11819,7 +11952,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_hq.paa"",""CO"","""",-16]";
+							value="[""x\tmf\addons\orbat\textures\orange_hq.paa"",""CO"",""x\tmf\addons\orbat\textures\modif_o.paa"",-16]";
 						};
 					};
 				};
@@ -11861,7 +11994,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=23;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item12
@@ -11894,25 +12046,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""sl"",""un_mo"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
 							class Value
@@ -11926,68 +12059,11 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_sl_flag.paa"",""ASL"",-3]";
+									value="[""x\tmf\addons\orbat\textures\yellow_chevrons.paa"",""ASL"",-5]";
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[3]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="sl";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -12006,7 +12082,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[3]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""sl"",""un_mo"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="sl";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 				class Item1
@@ -12225,7 +12415,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="["""","""","""",-4]";
+							value="[""x\tmf\addons\orbat\textures\yellow_inf.paa"",""ASL"",""x\tmf\addons\orbat\textures\modif_o.paa"",-4]";
 						};
 					};
 				};
@@ -12282,7 +12472,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-1;
+							value=24;
 						};
 					};
 				};
@@ -13350,7 +13540,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\red_inf.paa"",""A1"",""x\tmf\addons\orbat\textures\modif_o.paa"",2]";
+							value="[""x\tmf\addons\orbat\textures\red_inf.paa"",""A1"",""x\tmf\addons\orbat\textures\modif_o.paa"",7]";
 						};
 					};
 				};
@@ -13407,7 +13597,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-1;
+							value=24;
 						};
 					};
 				};
@@ -14475,7 +14665,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\red_inf.paa"",""A2"",""x\tmf\addons\orbat\textures\modif_o.paa"",3]";
+							value="[""x\tmf\addons\orbat\textures\blue_inf.paa"",""A2"",""x\tmf\addons\orbat\textures\modif_o.paa"",8]";
 						};
 					};
 				};
@@ -14532,7 +14722,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-1;
+							value=24;
 						};
 					};
 				};
@@ -14882,7 +15072,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_helo_cargo.paa"",""TH1"","""",23]";
+							value="[""x\tmf\addons\orbat\textures\gray_helo_cargo.paa"",""TH1"",""x\tmf\addons\orbat\textures\modif_o.paa"",23]";
 						};
 					};
 				};
@@ -14924,7 +15114,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=26;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item16
@@ -19588,7 +19797,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_helo_cargo.paa"",""TH2"","""",24]";
+							value="[""x\tmf\addons\orbat\textures\gray_helo_cargo.paa"",""TH2"",""x\tmf\addons\orbat\textures\modif_o.paa"",24]";
 						};
 					};
 				};
@@ -19630,7 +19839,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=26;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item25
@@ -20153,7 +20381,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\red_inf_mech.paa"",""AV"","""",15]";
+							value="[""x\tmf\addons\orbat\textures\gray_inf_mech.paa"",""AV"",""x\tmf\addons\orbat\textures\modif_o.paa"",15]";
 						};
 					};
 				};
@@ -20210,7 +20438,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=-1;
+							value=26;
 						};
 					};
 				};
@@ -20681,7 +20909,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_armor.paa"",""TNK1"","""",29]";
+							value="[""x\tmf\addons\orbat\textures\blue_armor.paa"",""TNK1"",""x\tmf\addons\orbat\textures\modif_o.paa"",29]";
 						};
 					};
 				};
@@ -20723,7 +20951,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=27;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item27
@@ -21069,7 +21316,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_helo_attack.paa"",""AH1"","""",27]";
+							value="[""x\tmf\addons\orbat\textures\red_helo_attack.paa"",""AH1"",""x\tmf\addons\orbat\textures\modif_o.paa"",27]";
 						};
 					};
 				};
@@ -21111,7 +21358,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=28;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item28
@@ -26978,7 +27244,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG1"","""",4]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_m.paa"",""MMG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",9]";
 						};
 					};
 				};
@@ -27020,7 +27286,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item40
@@ -27445,7 +27730,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_m.paa"",""MMG2"","""",5]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_m.paa"",""MMG2"",""x\tmf\addons\orbat\textures\modif_o.paa"",10]";
 						};
 					};
 				};
@@ -27487,7 +27772,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item41
@@ -27931,7 +28235,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mg_h.paa"",""HMG1"","""",7]";
+							value="[""x\tmf\addons\orbat\textures\green_mg_h.paa"",""HMG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",11]";
 						};
 					};
 				};
@@ -27973,7 +28277,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item42
@@ -28416,7 +28739,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT1"","""",6]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""MAT1"",""x\tmf\addons\orbat\textures\modif_o.paa"",12]";
 						};
 					};
 				};
@@ -28458,7 +28781,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item43
@@ -28901,7 +29243,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""MAT2"","""",8]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""MAT2"",""x\tmf\addons\orbat\textures\modif_o.paa"",13]";
 						};
 					};
 				};
@@ -28943,7 +29285,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item44
@@ -29386,7 +29747,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_antitank.paa"",""HAT1"","""",9]";
+							value="[""x\tmf\addons\orbat\textures\green_antitank.paa"",""HAT1"",""x\tmf\addons\orbat\textures\modif_o.paa"",14]";
 						};
 					};
 				};
@@ -29428,7 +29789,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item45
@@ -29891,7 +30271,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_mortar.paa"",""MTR1"","""",11]";
+							value="[""x\tmf\addons\orbat\textures\green_mortar.paa"",""MTR1"",""x\tmf\addons\orbat\textures\modif_o.paa"",16]";
 						};
 					};
 				};
@@ -29933,7 +30313,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item46
@@ -30259,7 +30658,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_airdef_not_a_nipple.paa"",""MSAM1"","""",10]";
+							value="[""x\tmf\addons\orbat\textures\green_airdef_not_a_nipple.paa"",""MSAM1"",""x\tmf\addons\orbat\textures\modif_o.paa"",17]";
 						};
 					};
 				};
@@ -30301,7 +30700,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item47
@@ -30627,7 +31045,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_sf.paa"",""ST1"","""",12]";
+							value="[""x\tmf\addons\orbat\textures\green_sf.paa"",""ST1"",""x\tmf\addons\orbat\textures\modif_o.paa"",18]";
 						};
 					};
 				};
@@ -30669,7 +31087,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item48
@@ -31363,7 +31800,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_engineer.paa"",""ENG1"","""",13]";
+							value="[""x\tmf\addons\orbat\textures\green_engineer.paa"",""ENG1"",""x\tmf\addons\orbat\textures\modif_o.paa"",19]";
 						};
 					};
 				};
@@ -31405,7 +31842,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=25;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item49
@@ -31632,7 +32088,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_fixedwing.paa"",""CAS1"","""",28]";
+							value="[""x\tmf\addons\orbat\textures\red_fixedwing.paa"",""CAS1"",""x\tmf\addons\orbat\textures\modif_o.paa"",28]";
 						};
 					};
 				};
@@ -31674,7 +32130,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute4
+				{
+					property="TMF_OrbatParent";
+					expression="[_this,'TMF_OrbatParent',_value] call tmf_common_fnc_initGroupVar;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=28;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 		class Item50
@@ -37042,7 +37517,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4093.7793,5.0014391,4207.8711};
+						position[]={4093.7791,5.0014391,4207.8706};
 					};
 					side="West";
 					flags=6;
@@ -37060,25 +37535,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""co"",""fia_ts"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
 							class Value
@@ -37092,68 +37548,11 @@ class Mission
 											"STRING"
 										};
 									};
-									value="["""",""""]";
+									value="[""x\tmf\addons\orbat\textures\orange_sl_flag.paa"",""CO"",-14]";
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[3]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="co";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -37172,7 +37571,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[3]";
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""co"",""fia_ts"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="co";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 				class Item1
@@ -37211,7 +37724,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM"",18]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""COM"",1]";
 								};
 							};
 						};
@@ -37669,7 +38182,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4092.9165,5.0014391,4202.918};
+						position[]={4092.917,5.0014391,4202.918};
 					};
 					side="West";
 					flags=4;
@@ -37700,7 +38213,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\yellow_cross.paa"",""COM"",19]";
+									value="["""",string]";
 								};
 							};
 						};
@@ -37744,6 +38257,25 @@ class Mission
 						};
 						class Attribute3
 						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute4
+						{
 							property="TMF_Channellist";
 							expression="_this setVariable ['TMF_Channellist',_value,true];";
 							class Value
@@ -37761,7 +38293,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute4
+						class Attribute5
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -37780,7 +38312,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute5
+						class Attribute6
 						{
 							property="speaker";
 							expression="_this setspeaker _value;";
@@ -37799,7 +38331,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute6
+						class Attribute7
 						{
 							property="TMF_assignGear_full";
 							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
@@ -37818,7 +38350,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute7
+						class Attribute8
 						{
 							property="TMF_assignGear_role";
 							expression="false";
@@ -37837,7 +38369,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=8;
+						nAttributes=9;
 					};
 				};
 				class Item5
@@ -38056,7 +38588,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\orange_hq.paa"",""CO"",""x\tmf\addons\orbat\textures\modif_o.paa"",-14]";
+							value="[""x\tmf\addons\orbat\textures\orange_hq.paa"",""CO"",""x\tmf\addons\orbat\textures\modif_o.paa"",0]";
 						};
 					};
 				};
@@ -38150,25 +38682,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="TMF_assignGear_full";
-							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[""sl"",""fia_ts"",true]";
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="TMF_SpecialistMarker";
 							expression="_this setVariable ['TMF_SpecialistMarker',_value,true];";
 							class Value
@@ -38182,68 +38695,11 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\red_sl_flag.paa"",""ASL"",-7]";
+									value="[""x\tmf\addons\orbat\textures\yellow_chevrons.paa"",""ASL"",-9]";
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="TMF_Channellist";
-							expression="_this setVariable ['TMF_Channellist',_value,true];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[3]";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="TMF_assignGear_role";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="sl";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="TMF_assignGear_enabled";
-							expression="false";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute5
+						class Attribute1
 						{
 							property="TMF_assignGear_faction";
 							expression="false";
@@ -38262,7 +38718,121 @@ class Mission
 								};
 							};
 						};
-						nAttributes=6;
+						class Attribute2
+						{
+							property="TMF_assignGear_enabled";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="TMF_Channellist";
+							expression="_this setVariable ['TMF_Channellist',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[3]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="TMF_assignGear_full";
+							expression="[_this,_value] call tmf_assignGear_fnc_helper;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[""sl"",""fia_ts"",true]";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TMF_assignGear_role";
+							expression="false";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="sl";
+								};
+							};
+						};
+						nAttributes=8;
 					};
 				};
 				class Item1
@@ -38301,7 +38871,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""AM"",-5]";
+									value="[""x\tmf\addons\orbat\textures\purple_cross.paa"",""AM"",0]";
 								};
 							};
 						};
@@ -38482,7 +39052,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""x\tmf\addons\orbat\textures\yellow_inf.paa"",""ASL"",""x\tmf\addons\orbat\textures\modif_o.paa"",-9]";
+							value="[""x\tmf\addons\orbat\textures\yellow_inf.paa"",""ASL"",""x\tmf\addons\orbat\textures\modif_o.paa"",-5]";
 						};
 					};
 				};

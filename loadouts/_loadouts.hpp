@@ -1,4 +1,4 @@
-#include "\rof_addons\rof_tmf_loadouts\loadouts\_macros.hpp"
+#include "_macros.hpp"
 
 class CfgLoadouts
 {

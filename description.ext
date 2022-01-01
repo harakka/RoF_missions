@@ -1,9 +1,25 @@
 tmf_version[] = {102,2,0}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
 enableDebugConsole = 1; // Allows the logged in admin to use the debug console from the escape page.
 
+author = "harakka";
+onLoadName = "Blatnyak";
+onLoadMission = "Somewhere in the Zone...";
+loadScreen = "loading.paa";
 // Use a randomized loading image from TMF. Set your own loading image with e.g. overviewPicture = "image.jpg";
 // overviewPicture = __EVAL(selectRandom ['\x\tmf\addons\common\ui\loadscreens\1.jpg','\x\tmf\addons\common\ui\loadscreens\2.jpg','\x\tmf\addons\common\ui\loadscreens\3.jpg','\x\tmf\addons\common\ui\loadscreens\4.jpg','\x\tmf\addons\common\ui\loadscreens\5.jpg','\x\tmf\addons\common\ui\loadscreens\6.jpg','\x\tmf\addons\common\ui\loadscreens\7.jpg','\x\tmf\addons\common\ui\loadscreens\8.jpg','\x\tmf\addons\common\ui\loadscreens\9.jpg','\x\tmf\addons\common\ui\loadscreens\10.jpg']);
+class CfgSounds
+{
+	sounds[] = {banditradio};
+	class banditradio
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "banditradio";
 
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "banditradio.ogg", 6, 1};
+        titles[] = {0,""};
+	};
+};
 class CfgDebriefingSections {
     class acex_killTracker {
         title = "ACEX Kill Tracker";
@@ -15,32 +31,61 @@ class CfgDebriefing
 {
     class Success
     {
-        title = "Mission Success";
+        title = "Mission completed";
+        subtitle = "Blowout soon fellow stalker...";
+        description = "";
+        // pictureBackground = "";
+        // picture = "";
+        // pictureColor[] = {0.0,0.3,0.6,1};
+    };
+    class loser
+    {
+        title = "Lost to the Zone";
         subtitle = "";
         description = "";
         // pictureBackground = "";
         // picture = "";
         // pictureColor[] = {0.0,0.3,0.6,1};
     };
-    class Failed
-    {
-        title = "Mission Failed";
-        subtitle = "";
-        description = "";
-        // pictureBackground = "";
-        // picture = "";
-        // pictureColor[] = {0.0,0.3,0.6,1};
+};
+
+class TMF_AIGear {
+    // Code used to determine unit type, 
+    // must return string equal to one of the arrays below.
+    code = "([_this] call BIS_fnc_objectType) select 1";
+
+    // Type arrays, follows selectRandomWeighted syntax
+    MG[] = {
+        "ar",3,
+        "mmgg",1
     };
-    class CustomEnding1
-    {
-        title = "Custom Ending #1";
-        subtitle = "";
-        description = "*** Explanation for the debriefing page ***";
-        // pictureBackground = "";
-        // picture = "";
-        // pictureColor[] = {0.0,0.3,0.6,1};
+    AT[] = {
+        "rat",3,
+        "matg",1
+    };
+    Officer[] = {
+        "pl",1
+    };
+    Pilot[] = {
+        "pc",3,
+        "jp",1
+    };
+    Medic[] = {
+        "m",1
+    };
+    Sniper[] = {
+        "sn",1,
+        "dm",1
     };
 
+    // Default if determined type isn't one of the above arrays
+    default[] = {
+        "r", 10,
+        "ftl", 2,
+        "aar", 2,
+        "eng",1,
+        "sl",1
+    };
 };
 
 // DO NOT REMOVE. Include the macros for custom loadouts.

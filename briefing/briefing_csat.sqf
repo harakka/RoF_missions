@@ -14,16 +14,24 @@
 
 private _situation = ["diary", ["Situation","
 <br/>
-*** Insert general information per the above description.***
+Thanks to recent intel from an insider informant, fresh anomaly maps and lucky coincidences, we have a brief window for transporting two Mi-24s' worth of Spetsnaz into the vicinity of a bandit base, located in a power plant complex deep in the Zone.
+<br />
+Our target is the laptop of a prominent bandit leader, expected to contain valuable information on his contacts and contraband logistics.
+<br />
+The bandit leader and their main force should be on a mission outside of the AO and are not expected to return today. The base should only have skeleton crew.
 <br/><br/>
 <font size='18'>ENEMY FORCES</font>
 <br/>
-*** Provide information on enemy forces.***
+Up to 5 infantry squads, no vehicles. Reinforcement capacity unknown.
 <br/><br/>
 
 <font size='18'>FRIENDLY FORCES</font>
 <br/>
-*** Detail friendly forces that are external to the playable force. ***
+None.
+<br/><br/>
+<font size='18'>CONDITIONS</font>
+<br/>
+Extreme fog in the surrounding area, but the complex itself is currently above the fog. The power plant grounds has numerous dangerous anomalies, but the surrounding fields should be mostly safe. Avoid interiors other than the main bandit HQ.
 
 "]];
 
@@ -35,7 +43,11 @@ private _situation = ["diary", ["Situation","
 
 private _mission = ["diary", ["Mission","
 <br/>
-*** Provide a short summary of the mission objectives here. ***
+* Find and seize the bandit leader's laptop.
+<br/>
+* Exfiltrate outside of the mission area.
+<br/>
+* Wait for helicopter transport...
 "]];
 
 /* ===============================================
@@ -47,22 +59,12 @@ private _execution = ["diary", ["Execution","
 <br/>
 <font size='18'>COMMANDER'S INTENT</font>
 <br/>
-*** Insert very short summary of plan here. ***
+Insert, infiltrate the bandit HQ, find the laptop and leave the AO.
 <br/><br/>
 
 <font size='18'>MOVEMENT PLAN</font>
 <br/>
-*** Insert movement instructions here. ***
 <br/><br/>
-
-<font size='18'>FIRE SUPPORT PLAN</font>
-<br/>
-*** Provide details on any available fire support. ***
-<br/><br/>
-
-<font size='18'>SPECIAL TASKS</font>
-<br/>
-*** Insert instructions for specific units here. ***
 "]];
 
 /* ===============================================
@@ -74,8 +76,12 @@ private _execution = ["diary", ["Execution","
 
 private _administration = ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
-"]];
+Everyone is equipped with an anomaly detector (enable from ACE self interact) that will start to beep when within 10m range of an anomaly.
+<br />
+** Rate of beeping indicates distance to an anomaly. Do not take risks with anomalies. If you hear continuous beeping, retrace your steps to safety.
+<br />
+Do not risk your life trying to retrieve fallen comrades from anomaly fields.
+<br />"]];
 
 player createDiaryRecord _administration;
 player createDiaryRecord _execution;

@@ -9,6 +9,6 @@ private _briefing = "ADMIN BRIEFING<br/><br/>";
 */
 
 // Insert custom text
-_briefing = _briefing + "";
+_briefing = _briefing + "Mission is completed once players are outside the AO and have a laptop in their possession. There are no extraction helis coming.";
 
 player createDiaryRecord ["diary", ["Admin",_briefing]];

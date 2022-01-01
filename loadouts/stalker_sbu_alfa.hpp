@@ -7,7 +7,6 @@ class baseMan {// Weaponless baseclass
     vest[] = {};
     backpack[] = {"rhs_rd54_vest_flora2"};
     headgear[] = {};
-    goggles[] = {};
     hmd[] = {};
     // Leave empty to remove all. "Default" > leave original item.
 
@@ -40,16 +39,14 @@ class baseMan {// Weaponless baseclass
     backpackItems[] = {};
 
     // This is executed after unit init is complete. argument: _this = _unit.
-    code = "if (random 1 < 0.5) then { _this addItem 'murshun_cigs_cigpack'; _this addItem 'murshun_cigs_matches'};";
+    code = "[_this] spawn {params ['_unit']; sleep 3; _unit addGoggles 'G_CBRN_M04_Hood'; [_unit, 'stalker_military'] call BIS_fnc_setUnitInsignia;}";
     traits[] = {};
 };
 class r : baseMan
 {
     displayName = "Rifleman";
-    headgear[] = 
-    {
-        "rhs_stsh81_butan"
-    };
+    headgear[] = {"rhs_stsh81_butan"};
+    insignias[] = {"stalker_military"};     // Insignia and goggles don't seem to work, they're spawned in init.sqf instead
     goggles[] = {"G_CBRN_M04_Hood"};
     vest[] = {"rhs_6b13_Flora_6sh92"};
     primaryWeapon[] = {"rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag"};

@@ -7,6 +7,17 @@ onLoadMission = "Somewhere in the Zone...";
 loadScreen = "loading.paa";
 // Use a randomized loading image from TMF. Set your own loading image with e.g. overviewPicture = "image.jpg";
 // overviewPicture = __EVAL(selectRandom ['\x\tmf\addons\common\ui\loadscreens\1.jpg','\x\tmf\addons\common\ui\loadscreens\2.jpg','\x\tmf\addons\common\ui\loadscreens\3.jpg','\x\tmf\addons\common\ui\loadscreens\4.jpg','\x\tmf\addons\common\ui\loadscreens\5.jpg','\x\tmf\addons\common\ui\loadscreens\6.jpg','\x\tmf\addons\common\ui\loadscreens\7.jpg','\x\tmf\addons\common\ui\loadscreens\8.jpg','\x\tmf\addons\common\ui\loadscreens\9.jpg','\x\tmf\addons\common\ui\loadscreens\10.jpg']);
+class CfgUnitInsignia
+{
+	class stalker_military
+	{
+		displayName = "Military (Stalker)";
+		author = "GSC Game World";
+		texture = "military.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+};
+
 class CfgSounds
 {
 	sounds[] = {banditradio};

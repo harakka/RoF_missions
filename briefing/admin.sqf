@@ -9,6 +9,6 @@ private _briefing = "ADMIN BRIEFING<br/><br/>";
 */
 
 // Insert custom text
-_briefing = _briefing + "";
+_briefing = _briefing + "The end mission triggers don't check for the flight recorder's existence, if it magically disappears or players forget to pick it off a body at some point you can just wing it and say someone has it as an admin decision.";
 
 player createDiaryRecord ["diary", ["Admin",_briefing]];
